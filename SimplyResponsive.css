@@ -1,0 +1,51 @@
+h1{
+    background-color: gray;
+    padding: 10px;
+    margin: 4px;
+    width: 90%;
+    font-family: Arial;
+}
+p{
+    vertical-align: top;
+    background-color: lightgray;
+    padding: 10px;
+    margin: 4px;
+    font-family: Arial;
+    width: 90%;
+}
+.row p{
+    background-color: rgb(245, 255, 108);
+    padding: 10px;
+    border-width: 1px;
+    border-color: lightgray;
+    border-style: solid;
+}
+.col {
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+}
+@media only screen and (max-width: 480px){
+    .sm-1{
+        width: 90%;
+    }
+    .sm-0{
+        display: none;
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 899px){
+    .med-1{
+        width: 90%;
+    }
+    .med-0{
+        display: none;
+    }
+}
+@media only screen and (min-width: 900px){
+    .lg-1{
+        width: 90%;
+    }
+    .lg-0{
+        display: none;
+    }
+}
